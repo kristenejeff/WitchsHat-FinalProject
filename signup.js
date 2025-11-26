@@ -1,4 +1,3 @@
-// Password validation function: letters, numbers, special character
 function isValidPassword(password) {
   const letter = /[a-zA-Z]/;
   const number = /\d/;
@@ -6,7 +5,6 @@ function isValidPassword(password) {
   return letter.test(password) && number.test(password) && special.test(password);
 }
 
-// Handle Sign Up form submission
 document.getElementById('signup-form').addEventListener('submit', function(event) {
   event.preventDefault();
   const password = document.getElementById('signup-password').value;
@@ -22,8 +20,8 @@ document.getElementById('signup-form').addEventListener('submit', function(event
     return;
   }
 
-  // Insert sign up logic here
   alert('Sign Up successful!');
-  // After successful sign up, redirect to login page
   window.location.href = "login.html";
 });
+
+localStorage.setItem('firstName', document.getElementById('first-name').value);

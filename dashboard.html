@@ -2,31 +2,32 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Home (Dashboard)</title>
+  <title>The Witch's Hat - Home (Dashboard)</title>
 </head>
 <body>
 
-  <!-- Horizontal Navigation -->
+  <header>
+    <h1>The Witch's Hat</h1>
+  </header>
   <nav>
-    <ul style="display:flex; list-style:none; padding:0; margin:0;">
+    <ul style="display:flex; list-style:none; padding:0; margin:0;"> <!--bebi pachange nalang too-->
       <li><a href="dashboard.html">Home</a></li>
       <li><a href="about.html">About</a></li>
       <li><a href="catalog.html">Catalog</a></li>
     </ul>
   </nav>
 
-  <!-- Tagline and Image -->
   <section style="display:flex; align-items:center; justify-content:space-between; margin-top:20px;">
     <div>
-      <h1>Where Art finds its Magic.</h1>
+      <h2 id="greeting"></h2>
+      <h3>Where Art finds its Magic.</h3>
       <button onclick="goToCatalog()">Shop Now</button>
     </div>
     <div>
-      <img src="path-to-your-image.jpg" alt="Artistic magic" style="max-width:300px; height:auto;" />
+      <img src="path-to-your-image.jpg" alt="Artistic magic" style="max-width:300px; height:auto;" /> <!--also this paki-insert image-->
     </div>
   </section>
 
-  <!-- About Witch's Hat -->
   <section style="margin-top:30px;">
     <h2>About Witch’s Hat</h2>
     <p>
