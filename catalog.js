@@ -43,3 +43,5 @@ artworks.forEach(artwork => {
   const artworkItem = createArtworkItem(artwork);
   catalogGrid.appendChild(artworkItem);
 });
+
+
