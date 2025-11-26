@@ -1,11 +1,5 @@
-/* ===========================
-   FONT IMPORTS
-   =========================== */
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;700&display=swap');
 
-/* ===========================
-   GLOBAL STYLES
-   =========================== */
 body {
   margin: 0;
   padding: 0;
@@ -15,15 +9,11 @@ body {
   text-align: center;
 }
 
-/* Center all headings */
 h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   text-align: center;
 }
 
-/* ===========================
-   HEADER WITH IMAGE BACKGROUND
-   =========================== */
 header {
   background-image: url("https://i.postimg.cc/rV00DYTh/the-witch-s-hat.png");
   background-size: cover;
@@ -39,9 +29,6 @@ header h1 {
   font-size: 3rem;
 }
 
-/* ===========================
-   NAVIGATION
-   =========================== */
 nav {
   background-color: rgba(0, 0, 0, 0.2);
   padding: 14px 0;
@@ -66,9 +53,6 @@ nav a:hover {
   text-decoration: underline;
 }
 
-/* ===========================
-   SECTIONS & CONTAINERS
-   =========================== */
 section {
   max-width: 1100px;
   margin: 20px auto;
@@ -82,9 +66,6 @@ section p {
   text-align: center;
 }
 
-/* ===========================
-   BUTTONS (if needed in about)
-   =========================== */
 button {
   background-color: #ffffff;
   color: #08457E;
@@ -101,9 +82,6 @@ button:hover {
   background-color: #d9d9d9;
 }
 
-/* ===========================
-   HERO (if needed)
-   =========================== */
 .hero {
   display: flex;
   flex-direction: column;
@@ -120,7 +98,7 @@ button:hover {
   margin: 0 auto;
 }
 
-/* Ensure ALL images are centered */
+
 img {
   display: block;
   margin: 0 auto;

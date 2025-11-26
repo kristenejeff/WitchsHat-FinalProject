@@ -1,21 +1,14 @@
-/* ===========================
-   FONT IMPORTS
-   =========================== */
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;700&display=swap');
 
-/* ===========================
-   GLOBAL STYLES
-   =========================== */
 body {
   margin: 0;
   padding: 0;
   background-color: #02182c;
   font-family: "EB Garamond", serif;
   color: #ffffff;
-  text-align: center; /* Center all text globally */
+  text-align: center;
 }
 
-/* Center all headings */
 h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   text-align: center;
@@ -23,14 +16,13 @@ h1, h2, h3, h4, h5, h6 {
 
 .hero {
   display: flex;
-  flex-direction: column;   /* stack vertically */
-  align-items: center;      /* center horizontally */
-  justify-content: center;  /* center vertically */
+  flex-direction: column;  
+  align-items: center;     
+  justify-content: center; 
   gap: 20px;
   margin-top: 20px;
 }
 
-/* center the image */
 .hero img {
   max-width: 1000px;
   height: auto;
@@ -38,9 +30,6 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0 auto;
 }
 
-/* ===========================
-   HEADER WITH IMAGE BACKGROUND
-   =========================== */
 header {
   background-image: url("https://i.postimg.cc/rV00DYTh/the-witch-s-hat.png");
   background-size: cover;
@@ -56,9 +45,6 @@ header h1 {
   font-size: 3rem;
 }
 
-/* ===========================
-   NAVIGATION
-   =========================== */
 nav {
   background-color: rgba(0, 0, 0, 0.2);
   padding: 14px 0;
@@ -67,7 +53,7 @@ nav {
 
 nav ul {
   list-style: none;
-  display: inline-flex; /* So it centers automatically */
+  display: inline-flex;
   gap: 28px;
   padding: 0;
   margin: 0;
@@ -83,9 +69,6 @@ nav a:hover {
   text-decoration: underline;
 }
 
-/* ===========================
-   CONTAINER & SECTIONS
-   =========================== */
 .container {
   max-width: 1100px;
   margin: 0 auto;
@@ -103,29 +86,22 @@ section p {
   text-align: center;
 }
 
-/* ===========================
-   HERO SECTION
-   =========================== */
 .hero {
   display: flex;
-  flex-direction: column; /* stack vertically */
-  align-items: center;     /* center images & text horizontally */
+  flex-direction: column; 
+  align-items: center;     
   justify-content: center;
   gap: 30px;
   margin-top: 30px;
 }
 
-/* Ensure ALL images on the page are centered */
 img {
   display: block;
-  margin: 0 auto; /* Centers images */
+  margin: 0 auto; 
   max-width: 100%;
   height: auto;
 }
 
-/* ===========================
-   BUTTONS
-   =========================== */
 button {
   background-color: #ffffff;
   color: #08457E;
