@@ -33,3 +33,15 @@ document.getElementById('loginForm').addEventListener('submit', function (e) {
   alert('Login successful (demo).');
   window.location.href = 'dashboard.html';
 });
+
+
+// Redirect to signup.html when Sign Up button is clicked
+document.addEventListener('DOMContentLoaded', function () {
+  const signUpBtn = document.getElementById('signUpBtn');
+  if (signUpBtn) {
+    signUpBtn.addEventListener('click', function () {
+      window.location.href = 'signup.html';
+    });
+  }
+});
+
