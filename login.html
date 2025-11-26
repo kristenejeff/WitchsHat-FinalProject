@@ -1,30 +1,40 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Log In</title>
+  <meta charset="UTF-8" />
+  <title>Sign Up and Log In</title>
 </head>
 <body>
-  <h1>Login to your Account</h1>
 
-  <form id="loginForm">
-    <label for="email">Email:</label>
-    <input id="email" name="email" type="email" required><br><br>
+  <!-- Log In Form -->
+  <section id="login-section">
+    <h2>Login to your Account</h2>
+    <form id="login-form">
+      <label for="login-email">Email</label><br />
+      <input type="email" id="login-email" required /><br />
 
-    <label for="password">Password:</label>
-    <input id="password" name="password" type="password" required><br><br>
+      <label for="login-password">Password</label><br />
+      <input type="password" id="login-password" required /><br />
 
-    <button type="submit">Sign In</button>
-    <p id="loginError" style="color:red;"></p>
-  </form>
+      <button type="submit">Sign In</button>
+    </form>
+    <p>
+      Don’t have an account?
+      <a href="#" id="show-signup">Sign Up</a>
+    </p>
+  </section>
 
-  <!-- Sign Up button -->
-  <p>Don’t have an account?
-    <button id="signUpBtn" type="button">Sign Up</button>
-  </p>
+  <!-- Sign Up Form -->
+  <section id="signup-section" style="display:none;">
+    <h2>Create your Account</h2>
+    <form id="signup-form">
+      <label for="first-name">First Name</label><br />
+      <input type="text" id="first-name" required /><br />
 
-  <!-- External JS -->
-  login.js</script>
-</body>
-</html>
+      <label for="last-name">Last Name</label><br />
+      <input type="text" id="last-name" required /><br />
+
+      <label for="signup-email">Email</label><br />
+      <input type="email" id="signup-email" required /><br />
+
+      <label for="signup-password">Password
