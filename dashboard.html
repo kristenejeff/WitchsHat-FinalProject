@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <title>The Witch's Hat - Home (Dashboard)</title>
+  <link rel="stylesheet" href="dashboard.css">
 </head>
 <body>
 
@@ -10,25 +11,27 @@
     <h1>The Witch's Hat</h1>
   </header>
   <nav>
-    <ul style="display:flex; list-style:none; padding:0; margin:0;"> <!--bebi pachange nalang too-->
+    <ul class="nav-links">
       <li><a href="dashboard.html">Home</a></li>
       <li><a href="about.html">About</a></li>
       <li><a href="catalog.html">Catalog</a></li>
     </ul>
   </nav>
 
-  <section style="display:flex; align-items:center; justify-content:space-between; margin-top:20px;">
-    <div>
-      <h2 id="greeting"></h2>
-      <h3>Where Art finds its Magic.</h3>
-      <button onclick="goToCatalog()">Shop Now</button>
-    </div>
-    <div>
-      <img src="path-to-your-image.jpg" alt="Artistic magic" style="max-width:300px; height:auto;" /> <!--also this paki-insert image-->
-    </div>
-  </section>
+  <section class="hero">
+  <div>
+    <h2 id="greeting"></h2>
+    <h3>Where Art finds its Magic.</h3>
+    <button onclick="goToCatalog()">Shop Now</button>
+  </div>
+
+  <div>
+    <img src="https://images.wallpapersden.com/image/download/ranni-the-witch-cool-elden-ring-hd_bWtoaWyUmZqaraWkpJRobWllrWZsa2o.jpg" 
+         alt="Artistic magic" />
+  </div>
+</section>
   
-  <section style="margin-top:30px;">
+  <section style="margin-top:30px; margin-left: 120px; margin-right: 120px;">
     <h2>About Witch’s Hat</h2>
     <p>
       The Witch’s Hat is an online art catalog dedicated to the strange, the beautiful, and the quietly enchanted.
