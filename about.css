@@ -4,6 +4,17 @@ body {
   margin: 0;
   padding: 0;
   background-color: #02182c;
+  font-size: 22px; 
+  font-family: "EB Garamond", serif;
+  color: #ffffff;
+  text-align: center;
+}
+
+footer {
+   margin: 0;
+  padding: 0;
+  background-color: #02182c;
+  font-size: 16px; 
   font-family: "EB Garamond", serif;
   color: #ffffff;
   text-align: center;
@@ -33,6 +44,7 @@ nav {
   background-color: rgba(0, 0, 0, 0.2);
   padding: 14px 0;
   text-align: center;
+  font-size: 16px;
 }
 
 nav ul {
@@ -80,6 +92,44 @@ button {
 
 button:hover {
   background-color: #d9d9d9;
+}
+
+.about-row {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin: 40px 0;
+}
+
+.about-row.reverse {
+  flex-direction: row-reverse;
+}
+
+.about-row img {
+  margin: 0;      
+}
+
+.about-row.reverse img {
+  margin-left: auto;  
+  margin-right: 0;
+}
+
+.about-img {
+  width: 350px;
+  height: auto;
+  border-radius: 12px;
+}
+
+@media (max-width: 768px) {
+  .about-row,
+  .about-row.reverse {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-img {
+    width: 80%;
+  }
 }
 
 .hero {

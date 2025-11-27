@@ -102,3 +102,13 @@ button:hover {
     font-size: 1.7rem;
   }
 }
+
+nav {
+   margin: 0;
+  padding: 0;
+  background-color: #02182c;
+  font-size: 18px; 
+  font-family: "EB Garamond", serif;
+  color: #ffffff;
+  text-align: center;
+}
